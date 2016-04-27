@@ -1,0 +1,208 @@
+h2 {
+    font-family: 'Open Sans', sans-serif;
+    color: #DB1507;
+}
+
+.navbar-inverse {
+    background-color: #FCFCFC;
+    width: 100%;
+    margin-top: 10px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.navbar-inverse .navbar-nav>.active>a:hover,
+.navbar-inverse .navbar-nav>li>a:hover,
+.navbar-inverse .navbar-nav>li>a:focus {
+    background-color: #DB1507
+}
+
+.navbar-inverse .navbar-nav>.active>a,
+.navbar-inverse .navbar-nav>.open>a,
+.navbar-inverse .navbar-nav>.open>a,
+.navbar-inverse .navbar-nav>.open>a:hover,
+.navbar-inverse .navbar-nav>.open>a,
+.navbar-inverse .navbar-nav>.open>a:hover,
+.navbar-inverse .navbar-nav>.open>a:focus {
+    background-color: #DB1507
+}
+
+.dropdown-menu {
+    background-color: #FFFFFF
+}
+
+.dropdown-menu>li>a:hover,
+.dropdown-menu>li>a:focus {
+    background-color: #DB1507
+}
+
+.navbar-inverse {
+    background-image: none;
+}
+
+.dropdown-menu>li>a:hover,
+.dropdown-menu>li>a:focus {
+    background-image: none;
+}
+
+.navbar-inverse {
+    border-color: #080808
+}
+
+.navbar-inverse .navbar-brand {
+    color: #050505
+}
+
+.navbar-inverse .navbar-brand:hover {
+    color: #050505
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #050505
+}
+
+.navbar-inverse .navbar-nav>li>a:hover,
+.navbar-inverse .navbar-nav>li>a:focus {
+    color: #FFFFFF
+}
+
+.navbar-inverse .navbar-nav>.active>a,
+.navbar-inverse .navbar-nav>.open>a,
+.navbar-inverse .navbar-nav>.open>a:hover,
+.navbar-inverse .navbar-nav>.open>a:focus {
+    color: #FFFFFF
+}
+
+.navbar-inverse .navbar-nav>.active>a:hover,
+.navbar-inverse .navbar-nav>.active>a:focus {
+    color: #FFFFFF
+}
+
+.dropdown-menu>li>a {
+    color: #050505
+}
+
+.dropdown-menu>li>a:hover,
+.dropdown-menu>li>a:focus {
+    color: #FFFFFF
+}
+
+.navbar-inverse .navbar-nav>.dropdown>a .caret {
+    border-top-color: #999999
+}
+
+.navbar-inverse .navbar-nav>.dropdown>a:hover .caret {
+    border-top-color: #FFFFFF
+}
+
+.navbar-inverse .navbar-nav>.dropdown>a .caret {
+    border-bottom-color: #999999
+}
+
+.navbar-inverse .navbar-nav>.dropdown>a:hover .caret {
+    border-bottom-color: #FFFFFF
+}
+
+.heading {
+    height: 100px;
+    width: 500px;
+    background-color: purple;
+    margin-top: 100px;
+}
+
+.caption {
+    height: 100px;
+    width: 1000px;
+    background-color: #FFFFFF;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.carousel-inner {
+    width: 1000px;
+    height: 450px;
+    margin-left: 200px;
+}
+
+.header {
+    height: 200px;
+    width: 900px;
+    background-color: orange;
+    margin-left: 300px;
+}
+
+.welcome {
+    margin-top: 100px;
+    margin-left: 400px;
+    width: 800px;
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+}
+
+#boxleft {
+    margin-top: 25px;
+    margin-left: 100px;
+    height: 300px;
+    width: 250px;
+    /*    background-color: red;*/
+    float: left;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+
+#boxcenter {
+    margin-top: 25px;
+    margin-left: 70px;
+    height: 350px;
+    width: 500px;
+    /*    background-color: orange;*/
+    float: left;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+
+#boxright {
+    margin-top: 25px;
+    margin-right: 100px;
+    height: 350px;
+    width: 300px;
+    /*    background-color: green;*/
+    float: right;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+
+#modalmaps {
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+
+/*
+.item {
+    width: 700px;
+    height: 350px;
+    margin: auto;
+}*/
+
+.infobox {
+    height: 700px;
+    width: 700px;
+    margin-left: 100px;
+    background-color: aqua;
+    float: left;
+}
+
+.didyouknow {
+    height: 300px;
+    width: 400px;
+    margin-right: 50px;
+    background-color: yellow;
+    float: right;
+}
+
+.canyouspot {
+    height: 300px;
+    width: 400px;
+    margin-right: 50px;
+    background-color: chartreuse;
+    float: right;
+}
