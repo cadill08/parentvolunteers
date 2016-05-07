@@ -1,0 +1,305 @@
+h2 {
+    font-family: 'Open Sans', sans-serif;
+    color: #DB1507;
+}
+
+.navbar-inverse {
+    background-color: #FCFCFC;
+    width: 100%;
+    margin-top: 10px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.navbar-inverse .navbar-nav>.active>a:hover,
+.navbar-inverse .navbar-nav>li>a:hover,
+.navbar-inverse .navbar-nav>li>a:focus {
+    background-color: #DB1507
+}
+
+.navbar-inverse .navbar-nav>.active>a,
+.navbar-inverse .navbar-nav>.open>a,
+.navbar-inverse .navbar-nav>.open>a,
+.navbar-inverse .navbar-nav>.open>a:hover,
+.navbar-inverse .navbar-nav>.open>a,
+.navbar-inverse .navbar-nav>.open>a:hover,
+.navbar-inverse .navbar-nav>.open>a:focus {
+    background-color: #DB1507
+}
+
+.dropdown-menu {
+    background-color: #FFFFFF
+}
+
+.dropdown-menu>li>a:hover,
+.dropdown-menu>li>a:focus {
+    background-color: #DB1507
+}
+
+.navbar-inverse {
+    background-image: none;
+}
+
+.dropdown-menu>li>a:hover,
+.dropdown-menu>li>a:focus {
+    background-image: none;
+}
+
+.navbar-inverse {
+    border-color: #080808
+}
+
+.navbar-inverse .navbar-brand {
+    color: #050505
+}
+
+.navbar-inverse .navbar-brand:hover {
+    color: #050505
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #050505
+}
+
+.navbar-inverse .navbar-nav>li>a:hover,
+.navbar-inverse .navbar-nav>li>a:focus {
+    color: #FFFFFF
+}
+
+.navbar-inverse .navbar-nav>.active>a,
+.navbar-inverse .navbar-nav>.open>a,
+.navbar-inverse .navbar-nav>.open>a:hover,
+.navbar-inverse .navbar-nav>.open>a:focus {
+    color: #FFFFFF
+}
+
+.navbar-inverse .navbar-nav>.active>a:hover,
+.navbar-inverse .navbar-nav>.active>a:focus {
+    color: #FFFFFF
+}
+
+.dropdown-menu>li>a {
+    color: #050505
+}
+
+.dropdown-menu>li>a:hover,
+.dropdown-menu>li>a:focus {
+    color: #FFFFFF
+}
+
+.navbar-inverse .navbar-nav>.dropdown>a .caret {
+    border-top-color: #999999
+}
+
+.navbar-inverse .navbar-nav>.dropdown>a:hover .caret {
+    border-top-color: #FFFFFF
+}
+
+.navbar-inverse .navbar-nav>.dropdown>a .caret {
+    border-bottom-color: #999999
+}
+
+.navbar-inverse .navbar-nav>.dropdown>a:hover .caret {
+    border-bottom-color: #FFFFFF
+}
+
+.heading {
+    height: 100px;
+    width: 700px;
+    /*    background-color: purple;*/
+    margin-top: 100px;
+    margin-left: 400px;
+    font-family: 'Open Sans', sans-serif;
+    color: #DB1507;
+}
+
+.caption {
+    height: 100px;
+    width: 1000px;
+    background-color: #FFFFFF;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.carousel-inner {
+    width: 1000px;
+    height: 450px;
+    margin-left: 200px;
+}
+
+.header {
+    height: 200px;
+    width: 900px;
+    background-color: orange;
+    margin-left: 300px;
+}
+
+.welcome {
+    margin-top: 100px;
+    margin-left: 400px;
+    width: 800px;
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+}
+
+.containerabout {
+    padding-top: 100px;
+}
+
+#boxleft {
+    margin-top: 25px;
+    margin-left: 100px;
+    margin-right: 50px;
+    height: 300px;
+    width: 250px;
+    background-color: red;
+    float: left;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+
+#boxcenter {
+    margin-top: 25px;
+    /*    margin-left: 70px;*/
+    margin-right: 150px;
+    height: 350px;
+    width: 500px;
+    background-color: orange;
+    float: left;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+
+#boxright {
+    margin-top: 25px;
+    margin-right: 100px;
+    margin-left: 50px;
+    height: 350px;
+    width: 300px;
+    background-color: green;
+    float: right;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    /*    position: absolute;*/
+}
+
+#heading {
+    background: yellow;
+    width: 200px;
+    height: 100px;
+    position: relative;
+}
+
+#contentsmall {
+    width: 200px;
+    height: 100px;
+    position: relative;
+    float: right;
+}
+
+#content {
+    background: blue;
+    width: 200px;
+    height: 360px;
+    position: relative;
+    float: right;
+}
+
+#modalmaps {
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+
+/*
+.item {
+    width: 700px;
+    height: 350px;
+    margin: auto;
+}*/
+
+.infobox {
+    height: 700px;
+    width: 700px;
+    margin-left: 100px;
+    /*    background-color: aqua;*/
+    float: left;
+}
+
+.imagebox {
+    height: 160px;
+    width: 200px;
+    position: absolute;
+    background-color: orange;
+}
+
+.nonficinfo {
+    height: 140px;
+    width: 450px;
+    margin-left: 200px;
+    /*    float: right;*/
+    /*    background-color: aliceblue;*/
+    font-family: 'Open Sans', sans-serif;
+    color: #DB1507;
+    text-align: center;
+}
+
+.description {
+    height: 80px;
+    width: 699px;
+    font-family: 'Open Sans', sans-serif;
+    color: #DB1507;
+    text-align: center;
+    /*    background-color: yellow;*/
+}
+
+.middlecontainer {
+    height: 220px;
+    width: 700px;
+    /*    background-color: aqua;*/
+}
+
+.example {
+    height: 300px;
+    width: 300px;
+    /*    background-color: green;*/
+    float: left;
+    font-family: 'Open Sans', sans-serif;
+    color: #DB1507;
+    text-align: center;
+    font-size: 16px;
+}
+
+.ficinfo {
+    height: 220px;
+    width: 700px;
+    /*    background-color: aqua;*/
+    clear: both;
+    font-family: 'Open Sans', sans-serif;
+    color: #DB1507;
+    text-align: center;
+}
+
+.beaverpicture {
+    height: 220px;
+    width: 300px;
+    /*    background-color: red;*/
+    float: right;
+}
+
+.didyouknow {
+    height: 300px;
+    width: 400px;
+    margin-right: 10px;
+    margin-top: 200px;
+    /*    background-color: yellow;*/
+    float: right;
+    font-family: 'Open Sans', sans-serif;
+    color: #DB1507;
+}
+
+.canyouspot {
+    height: 300px;
+    width: 300px;
+    margin-right: 70px;
+    /*    background-color: chartreuse;*/
+    float: right;
+}
