@@ -6,9 +6,20 @@ h2 {
 .navbar-inverse {
     background-color: #FCFCFC;
     width: 100%;
-    margin-top: 10px;
     font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
 }
+
+.navcontainer {
+    margin-top: 300px;
+}
+
+
+/*
+.navcontainer {
+    margin-top: 300px;
+}
+*/
 
 .navbar-inverse .navbar-nav>.active>a:hover,
 .navbar-inverse .navbar-nav>li>a:hover,
@@ -45,7 +56,7 @@ h2 {
 }
 
 .navbar-inverse {
-    border-color: #080808
+    border-color: #FFFFFF
 }
 
 .navbar-inverse .navbar-brand {
@@ -112,17 +123,31 @@ h2 {
     color: #DB1507;
 }
 
+.jumbotron {
+    height: 400px;
+    font-family: 'Open Sans', sans-serif;
+    color: #FFFFFF;
+    background-image: no-repeat;
+    padding: 0px;
+}
+
 .caption {
     height: 100px;
     width: 1000px;
+    margin-top: 100px;
     background-color: #FFFFFF;
     font-family: 'Open Sans', sans-serif;
 }
 
+.carousel {
+    width: 752px;
+    height: 432px;
+    margin-left: 150px;
+}
+
 .carousel-inner {
-    width: 1000px;
-    height: 450px;
-    margin-left: 200px;
+    width: 752px;
+    height: 432px;
 }
 
 .header {
@@ -146,39 +171,80 @@ h2 {
 
 #boxleft {
     margin-top: 25px;
-    margin-left: 100px;
-    margin-right: 50px;
+    margin-left: 50px;
+    /*    margin-right: 50px;*/
     height: 300px;
     width: 250px;
-    background-color: red;
+    /*    background-color: red;*/
     float: left;
     font-family: 'Open Sans', sans-serif;
     text-align: center;
+    position: absolute;
 }
+
+
+/*
+.contactquery {
+    height: 200px;
+    width: 250px;
+    clear: both;
+    background-color: yellow;
+}
+*/
 
 #boxcenter {
     margin-top: 25px;
     /*    margin-left: 70px;*/
-    margin-right: 150px;
+    /*    margin-right: 150px;*/
     height: 350px;
     width: 500px;
-    background-color: orange;
+    /*    background-color: orange;*/
     float: left;
     font-family: 'Open Sans', sans-serif;
     text-align: center;
 }
 
 #boxright {
-    margin-top: 25px;
-    margin-right: 100px;
+    margin-right: 50px;
     margin-left: 50px;
-    height: 350px;
+    height: 400px;
     width: 300px;
-    background-color: green;
+    /*    background-color: green;*/
     float: right;
     font-family: 'Open Sans', sans-serif;
     text-align: center;
-    /*    position: absolute;*/
+    position: absolute;
+}
+
+
+/*
+#containerjquery {
+    position: absolute;
+    background-color: yellow;
+    width: 500px;
+    height: 500px;
+    top: 200px;
+    left: 80px;
+}
+*/
+
+#box1 {
+    /*    background-color: blue;*/
+    width: 200px;
+    height 100px;
+    float: left;
+    position: relative;
+    z-index: 100;
+}
+
+#box2 {
+    /*    background-color: red;*/
+    width: 200px;
+    height: 400px;
+    float: left;
+    margin-top: 43px;
+    position: relative;
+    display: none;
 }
 
 #heading {
@@ -302,4 +368,57 @@ h2 {
     margin-right: 70px;
     /*    background-color: chartreuse;*/
     float: right;
+}
+
+.bodyinfo {
+    height: 900px;
+    width: 1100px;
+    /*    background-color: aqua;*/
+}
+
+.modalcontainer {
+    height: 750px;
+    width: 550px;
+    /*    background-color: orange;*/
+    font-family: 'Open Sans', sans-serif;
+    color: #DB1507;
+    margin-top: 100px;
+    margin-left: 100px;
+    text-align: center;
+    float: right;
+}
+
+.spinelabelcontainer {
+    height: 700px;
+    width: 300px;
+    /*    background-color: yellow;*/
+    font-family: 'Open Sans', sans-serif;
+    color: #DB1507;
+    margin-bottom: 400px;
+    /*    margin-top: 100px;*/
+    /*    margin-left: 150px;*/
+    text-align: center;
+    float: left;
+    /*    position: absolute;*/
+    margin-top: 200px;
+}
+
+.upperschoolspine {
+    height: 200px;
+    width: 300px;
+    /*    background-color: aliceblue;*/
+}
+
+.middleschoolspine {
+    height: 200px;
+    width: 300px;
+    /*    background-color: rebeccapurple;*/
+    /*    clear: both;*/
+}
+
+.lowerschoolspine {
+    height: 200px;
+    width: 300px;
+    /*    background-color: palevioletred;*/
+    /*    clear: both;*/
 }
