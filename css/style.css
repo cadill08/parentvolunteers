@@ -7,7 +7,18 @@ h2 {
     background-color: #FCFCFC;
     width: 100%;
     margin-top: 10px;
+    margin-left: 100px;
     font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+}
+
+.jumbotron {
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    height: 300px;
+    /*width: 500px;*/
+    padding: 0px;
+    
 }
 
 .navbar-inverse .navbar-nav>.active>a:hover,
@@ -45,7 +56,7 @@ h2 {
 }
 
 .navbar-inverse {
-    border-color: #080808
+    border-color: #FFFFFF;
 }
 
 .navbar-inverse .navbar-brand {
@@ -113,14 +124,25 @@ h2 {
     height: 100px;
     width: 1000px;
     background-color: #FFFFFF;
+    margin-top: 100px;
     font-family: 'Open Sans', sans-serif;
 }
 
 .carousel-inner {
-    width: 1000px;
-    height: 450px;
-    margin-left: 200px;
+    width: 700px;
+    height: 400px;
 }
+
+.carousel{
+    width:710px;
+    height:400px;
+    margin: 100px;
+}
+
+.carousel-caption {
+    height:200px;
+}
+
 
 .header {
     height: 200px;
@@ -129,6 +151,10 @@ h2 {
     margin-left: 300px;
 }
 
+/*#myCarousel {*/
+/*    width:700px;*/
+/*    height: 450px;*/
+/*}*/
 .welcome {
     margin-top: 100px;
     margin-left: 400px;
@@ -137,15 +163,16 @@ h2 {
     color: black;
 }
 
-#boxleft {
+.infoboxleft {
     margin-top: 25px;
     margin-left: 100px;
-    height: 300px;
-    width: 250px;
-    /*    background-color: red;*/
+    height: 400px;
+    width: 400px;
+    /*background-color: red;*/
     float: left;
     font-family: 'Open Sans', sans-serif;
     text-align: center;
+    color:#DB1507;
 }
 
 #boxcenter {
@@ -163,7 +190,7 @@ h2 {
     margin-top: 25px;
     margin-right: 100px;
     height: 350px;
-    width: 300px;
+    width: 700px;
     /*    background-color: green;*/
     float: right;
     font-family: 'Open Sans', sans-serif;
@@ -184,25 +211,53 @@ h2 {
 }*/
 
 .infobox {
-    height: 700px;
-    width: 700px;
+    height: 600px;
+    width: 1100px;
     margin-left: 100px;
     background-color: aqua;
     float: left;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    color:#DB1507;
+    
 }
 
-.didyouknow {
-    height: 300px;
+.nonficinfo {
+    height: 500px;
     width: 400px;
-    margin-right: 50px;
-    background-color: yellow;
-    float: right;
+    float: left;
+    
 }
+.middlecontainer {
+    /*height: 600px;*/
+    /*width: 200px;*/
+    max-height: 100%
+    max-width: 100%;
+    /*background-image: url("img/bookshelf.jpg");*/
+    float: right;
+    background-color: blue;
+}
+/*.challenge {*/
+/*    clear:both;*/
+/*    width: 1000px;*/
+/*    height: 800px;*/
+/*}*/
 
-.canyouspot {
-    height: 300px;
-    width: 400px;
-    margin-right: 50px;
-    background-color: chartreuse;
-    float: right;
-}
+/*.didyouknow {*/
+/*    height: 300px;*/
+/*    width: 400px;*/
+/*    margin-right: 50px;*/
+    /*background-color: yellow;*/
+/*    float: right;*/
+/*}*/
+
+/*.canyouspot {*/
+/*    height: 300px;*/
+/*    width: 400px;*/
+/*    margin-right: 50px;*/
+    /*background-color: chartreuse;*/
+/*    float: right;*/
+/*}*/
+
+/*.btn {margin-right: 100px;*/
+/*}*/
