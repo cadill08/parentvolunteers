@@ -7,9 +7,10 @@ h2 {
     background-color: #FCFCFC;
     width: 100%;
     margin-top: 10px;
-    margin-left: 100px;
+    margin-left: 200px;
     font-family: 'Open Sans', sans-serif;
     font-size: 20px;
+    color:#DB1507;
 }
 
 .jumbotron {
@@ -198,8 +199,14 @@ h2 {
 }
 
 #modalmaps {
-    margin-top: 10px;
-    margin-left: 20px;
+    margin-top: 100px;
+    margin-left: 400px;
+    width: 600px;
+    font-family: 'Open Sans', sans-serif;
+    color:#DB1507
+    text-align: center;
+    
+    
 }
 
 
@@ -213,8 +220,8 @@ h2 {
 .infobox {
     height: 600px;
     width: 1100px;
-    margin-left: 100px;
-    background-color: aqua;
+    margin-left: 200px;
+    /*background-color: aqua;*/
     float: left;
     font-family: 'Open Sans', sans-serif;
     text-align: center;
@@ -223,20 +230,21 @@ h2 {
 }
 
 .nonficinfo {
-    height: 500px;
+    height: 550px;
     width: 400px;
     float: left;
+    /*background-color: red;*/
     
 }
-.middlecontainer {
+/*.middlecontainer {*/
     /*height: 600px;*/
     /*width: 200px;*/
-    max-height: 100%
-    max-width: 100%;
+/*    max-height: 100%*/
+/*    max-width: 100%;*/
     /*background-image: url("img/bookshelf.jpg");*/
-    float: right;
-    background-color: blue;
-}
+/*    float: right;*/
+/*    background-color: blue;*/
+/*}*/
 /*.challenge {*/
 /*    clear:both;*/
 /*    width: 1000px;*/
@@ -261,3 +269,33 @@ h2 {
 
 /*.btn {margin-right: 100px;*/
 /*}*/
+
+/*.rightcontainer {*/
+/*    font-family: 'Open Sans', sans-serif;*/
+/*    text-align: center;*/
+/*    color:#DB1507;*/
+/*}*/
+
+.spinelabelcontainer {
+    height: 600px;
+    width: 400px;
+    /*background-color: yellow;*/
+    float: right;
+}
+
+.middleschoolspine {
+   height: 200px;
+   width: 250px;
+}
+
+.lowerschoolspine {
+    height: 200px;
+    width: 250px;
+    /*padding-top: 50px;*/
+    /*padding-left: 100px;*/
+}
+
+.upperschoolspine {
+    height: 200px;
+    width: 250px;
+}
